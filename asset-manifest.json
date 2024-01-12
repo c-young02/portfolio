@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c33b112b.css",
-    "main.js": "/static/js/main.4d7d2a9e.js",
-    "static/media/nasa.jpg": "/static/media/nasa.28a6a1b61e6b967846a5.jpg",
-    "static/media/hostel.jpg": "/static/media/hostel.da30156749a57d1322f9.jpg",
-    "static/media/React.png": "/static/media/React.8a6fc0a24a800d1e0f4a.png",
-    "static/media/Python.png": "/static/media/Python.82efb64f8698a267f8bf.png",
-    "static/media/wellness.jpg": "/static/media/wellness.1e25ab70e3b8efe9e5a7.jpg",
-    "static/media/TensorFlow.png": "/static/media/TensorFlow.5d49847106d9588c5473.png",
-    "static/media/HTML5.png": "/static/media/HTML5.9b674892ef5960bafca3.png",
-    "static/media/JavaScript.png": "/static/media/JavaScript.d206e1f67e4c0985166c.png",
-    "static/media/Java.png": "/static/media/Java.f5dd86c3ef6ef3f85acf.png",
-    "static/media/CSS.png": "/static/media/CSS.495a79bfbc4ced7c7c0e.png",
-    "static/media/Node.png": "/static/media/Node.a944ef19fe84ba7371f2.png",
-    "static/media/AWS.png": "/static/media/AWS.4191a1357ce51e22eccf.png",
-    "index.html": "/index.html",
-    "main.c33b112b.css.map": "/static/css/main.c33b112b.css.map",
-    "main.4d7d2a9e.js.map": "/static/js/main.4d7d2a9e.js.map"
+    "main.css": "/portfolio/static/css/main.c33b112b.css",
+    "main.js": "/portfolio/static/js/main.c7ad9f16.js",
+    "static/media/nasa.jpg": "/portfolio/static/media/nasa.28a6a1b61e6b967846a5.jpg",
+    "static/media/hostel.jpg": "/portfolio/static/media/hostel.da30156749a57d1322f9.jpg",
+    "static/media/React.png": "/portfolio/static/media/React.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Python.png": "/portfolio/static/media/Python.82efb64f8698a267f8bf.png",
+    "static/media/wellness.jpg": "/portfolio/static/media/wellness.1e25ab70e3b8efe9e5a7.jpg",
+    "static/media/TensorFlow.png": "/portfolio/static/media/TensorFlow.5d49847106d9588c5473.png",
+    "static/media/HTML5.png": "/portfolio/static/media/HTML5.9b674892ef5960bafca3.png",
+    "static/media/JavaScript.png": "/portfolio/static/media/JavaScript.d206e1f67e4c0985166c.png",
+    "static/media/Java.png": "/portfolio/static/media/Java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/CSS.png": "/portfolio/static/media/CSS.495a79bfbc4ced7c7c0e.png",
+    "static/media/Node.png": "/portfolio/static/media/Node.a944ef19fe84ba7371f2.png",
+    "static/media/AWS.png": "/portfolio/static/media/AWS.4191a1357ce51e22eccf.png",
+    "index.html": "/portfolio/index.html",
+    "main.c33b112b.css.map": "/portfolio/static/css/main.c33b112b.css.map",
+    "main.c7ad9f16.js.map": "/portfolio/static/js/main.c7ad9f16.js.map"
   },
   "entrypoints": [
     "static/css/main.c33b112b.css",
-    "static/js/main.4d7d2a9e.js"
+    "static/js/main.c7ad9f16.js"
   ]
 }
