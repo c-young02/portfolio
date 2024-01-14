@@ -24,7 +24,7 @@ const about = {
 	name: 'Callum Young',
 	role: 'Full Stack Developer',
 	description:
-		'A proficient final-year honours computing student based in the UK, specialising in full-stack development, with a demonstrated aptitude for designing and implementing software solutions across both front-end and back-end technologies.',
+		'Final-year computing student in the UK, specializing in full-stack development, adept at designing and implementing solutions across front-end and back-end technologies.',
 	cv: 'https://drive.google.com/file/d/1igmL05kVfuGlWZgIzOHqdhs_WWO8f312/view?usp=drive_link',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/c-young02',
