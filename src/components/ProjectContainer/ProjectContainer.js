@@ -1,47 +1,30 @@
-import uniqid from 'uniqid'
-import './ProjectContainer.css'
+import uniqid from 'uniqid';
+import './ProjectContainer.css';
+import LinkButton from '../LinkButton/LinkButton';
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
-    <img className='project__image' src={project.image} alt={project.name} />
-    <h3>{project.name}</h3>
-    <p className='project__description'>{project.description}</p>
-    {project.stack && (
-      <ul className='project__stack'>
-        {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
-            {item}
-          </li>
-        ))}
-      </ul>
-    )}
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <span type='button' className='btn btn--outline'>
-          Live Link
-        </span>
-      </a>
-    )}
-    {project.sourceCode && (
-      <a
-        href={project.sourceCode}
-        aria-label='source code'
-        className='link link--icon'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <span type='button' className='btn btn--outline'>
-          Code Link
-        </span>
-      </a>
-    )}
-  </div>
-)
+	<div className="project">
+		<img className="project__image" src={project.image} alt={project.name} />
+		<h3>{project.name}</h3>
+		<p className="project__description">{project.description}</p>
+		{project.stack && (
+			<ul className="project__stack">
+				{project.stack.map((item) => (
+					<li key={uniqid()} className="project__stack-item">
+						{item}
+					</li>
+				))}
+			</ul>
+		)}
+		<div className="project__button-container">
+			<LinkButton href={project.livePreview} label="live preview">
+				Live Link
+			</LinkButton>
+			<LinkButton href={project.sourceCode} label="source code">
+				Code Link
+			</LinkButton>
+		</div>
+	</div>
+);
 
-export default ProjectContainer
+export default ProjectContainer;
