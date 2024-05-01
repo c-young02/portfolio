@@ -17,9 +17,16 @@ const ProjectContainer = ({ project }) => (
 			</ul>
 		)}
 		<div className="project__button-container">
-			<LinkButton href={project.livePreview} label="live preview">
-				Live Link
-			</LinkButton>
+			{project.livePreview && (
+				<LinkButton href={project.livePreview} label="live preview">
+					Live Link
+				</LinkButton>
+			)}
+			{project.videoLink && (
+				<LinkButton href={project.videoLink} label="live preview">
+					Video Link
+				</LinkButton>
+			)}
 			<LinkButton href={project.sourceCode} label="source code">
 				Code Link
 			</LinkButton>

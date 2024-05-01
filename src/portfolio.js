@@ -1,4 +1,5 @@
 import hostel from './components/Images/hostel.jpg';
+import classifier from './components/Images/classifier.png';
 import wellness from './components/Images/wellness.jpg';
 import nasa from './components/Images/nasa.jpg';
 
@@ -24,7 +25,7 @@ const about = {
 	name: 'Callum Young',
 	role: 'Full Stack Developer',
 	description:
-		'Final-year computing student in the UK, specializing in full-stack development, adept at designing and implementing solutions across front-end and back-end technologies.',
+		'Final-year computing student in the UK, specialising in full-stack development, adept at designing and implementing solutions across front-end and back-end technologies.',
 	cv: 'https://drive.google.com/file/d/1igmL05kVfuGlWZgIzOHqdhs_WWO8f312/view?usp=drive_link',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/c-young02',
@@ -37,10 +38,20 @@ const projects = [
 		name: 'Hostel Seeker',
 		image: hostel,
 		description:
-			'The Hostel Seeker project encompasses an array of features, allowing users to seamlessly explore hostels in Scotland through an interactive map, search for specific accommodations with café facilities, access reviews and ratings, create personalized itineraries with arrival and departure dates, and store, review, and modify itineraries, all while fostering user engagement through account creation for trip and review management.',
+			'The Hostel Seeker project encompasses an array of features, allowing users to seamlessly explore hostels in Scotland through an interactive map, search for specific accommodations with café facilities, access reviews and ratings, create personalised itineraries with arrival and departure dates, and store, review, and modify itineraries, all while fostering user engagement through account creation for trip and review management.',
 		stack: ['React', 'Express', 'Node', 'NeDB', 'Bootstrap', 'Leaflet'],
 		sourceCode: 'https://github.com/c-young02/FEWD_CW',
 		livePreview: 'https://hostel-seeker.netlify.app/',
+	},
+	{
+		name: 'Facial Age Classifier',
+		image: classifier,
+		description:
+			'Facial Age Classifier is a web application that allows users to upload images and get the age classified using a trained model. The application uses a fine-tuned model based on the ResNet50 architecture to analyse the uploaded images and provide an estimated age. It is built with a user-friendly interface, making it easy for users to interact with the application and get results quickly and accurately.',
+		stack: ['React', 'Bootstrap', 'Flask', 'TensorFlow'],
+		sourceCode: 'https://github.com/c-young02/Age-Classification',
+		videoLink:
+			'https://drive.google.com/file/d/1kIs1dZaXGy7OiPXvKWnuszHIKvBSJiXf/view?usp=sharing',
 	},
 	{
 		name: 'Welcome Wellness',
@@ -51,15 +62,15 @@ const projects = [
 		sourceCode: 'https://github.com/c-young02/Welcome-Wellness',
 		livePreview: 'https://welcome-wellness.onrender.com/',
 	},
-	{
+	/* {
 		name: 'NASA API Showcase',
 		image: nasa,
 		description:
-			'NASA API Showcase, is a frontend web application that serves as a showcase of NASAs APIs. This project enables users to explore the wonders of space, featuring daily Astronomy Pictures, insights into Near-Earth Asteroids, real-time Earth Events visualized on an interactive map, and a collection of Mars Rover Photos.',
+			'NASA API Showcase, is a frontend web application that serves as a showcase of NASAs APIs. This project enables users to explore the wonders of space, featuring daily Astronomy Pictures, insights into Near-Earth Asteroids, real-time Earth Events visualised on an interactive map, and a collection of Mars Rover Photos.',
 		stack: ['React', 'Bootstrap'],
 		sourceCode: 'https://github.com/c-young02/NASA-API-Showcase',
 		livePreview: 'https://nasa-api-showcase.netlify.app/',
-	},
+	}, */
 ];
 
 const skills = [
