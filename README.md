@@ -23,8 +23,8 @@ You can explore the live version of my portfolio website by clicking the followi
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/c-young02/c-young02.github.io.git`
-2. Navigate into the project directory: `cd c-young02.github.io`
+1. Clone the repository: `git clone https://github.com/c-young02/portfolio`
+2. Navigate into the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 
@@ -32,4 +32,4 @@ The application will open in your default web browser at `http://localhost:3000`
 
 ## Contact
 
-For any inquiries, please reach out to Callum at [email](mailto:callum.young02@outlook.com).
+For any inquiries, please reach out to me at [email](mailto:callum.young02@outlook.com).
