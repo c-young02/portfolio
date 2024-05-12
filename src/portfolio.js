@@ -17,7 +17,7 @@ import Git from './components/Images/Git.png';
 import AWS from './components/Images/AWS.png';
 
 const header = {
-	homepage: 'http://localhost:3000/',
+	homepage: 'https://c-young02.github.io/portfolio/',
 	title: 'CY',
 };
 
