@@ -25,7 +25,7 @@ const about = {
 	name: 'Callum Young',
 	role: 'Full Stack Developer',
 	description:
-		'BSc (Hons) Computing graduate from, specialising in full-stack development with expertise in designing and implementing solutions across front-end and back-end technologies.',
+		'BSc (Hons) Computing graduate, specialising in full-stack development with expertise in designing and implementing solutions across front-end and back-end technologies.',
 	cv: 'https://drive.google.com/file/d/1igmL05kVfuGlWZgIzOHqdhs_WWO8f312/view?usp=drive_link',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/c-young02',
