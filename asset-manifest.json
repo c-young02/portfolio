@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dbaf7010.css",
-    "main.js": "/portfolio/static/js/main.4bcb94ba.js",
+    "main.css": "/portfolio/static/css/main.377b15b5.css",
+    "main.js": "/portfolio/static/js/main.cb7a1f6d.js",
+    "static/media/pilates.png": "/portfolio/static/media/pilates.0c524555a35baec7d9c0.png",
     "static/media/nasa.jpg": "/portfolio/static/media/nasa.28a6a1b61e6b967846a5.jpg",
     "static/media/hostel.jpg": "/portfolio/static/media/hostel.da30156749a57d1322f9.jpg",
     "static/media/classifier.png": "/portfolio/static/media/classifier.aeca2cdf16924447fb40.png",
@@ -16,11 +17,11 @@
     "static/media/Node.png": "/portfolio/static/media/Node.a944ef19fe84ba7371f2.png",
     "static/media/AWS.png": "/portfolio/static/media/AWS.4191a1357ce51e22eccf.png",
     "index.html": "/portfolio/index.html",
-    "main.dbaf7010.css.map": "/portfolio/static/css/main.dbaf7010.css.map",
-    "main.4bcb94ba.js.map": "/portfolio/static/js/main.4bcb94ba.js.map"
+    "main.377b15b5.css.map": "/portfolio/static/css/main.377b15b5.css.map",
+    "main.cb7a1f6d.js.map": "/portfolio/static/js/main.cb7a1f6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbaf7010.css",
-    "static/js/main.4bcb94ba.js"
+    "static/css/main.377b15b5.css",
+    "static/js/main.cb7a1f6d.js"
   ]
 }
