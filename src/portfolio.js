@@ -1,6 +1,7 @@
 import hostel from './components/Images/hostel.jpg';
 import classifier from './components/Images/classifier.png';
 import wellness from './components/Images/wellness.jpg';
+import pilates from './components/Images/pilates.png';
 import nasa from './components/Images/nasa.jpg';
 
 import JavaScript from './components/Images/JavaScript.png';
@@ -52,6 +53,14 @@ const projects = [
 		sourceCode: 'https://github.com/c-young02/Age-Classification',
 		videoLink:
 			'https://drive.google.com/file/d/1kIs1dZaXGy7OiPXvKWnuszHIKvBSJiXf/view?usp=sharing',
+	},
+	{
+		name: 'Luna Love Pilates',
+		image: pilates,
+		description:
+			'Luna Love Pilates is a professionally designed website built for a client using the WordPress plugin Elementor. I took over the project after it was initially delivered in a non-functional state and worked closely with the client to understand their requirements and deliver a fully optimised, user-friendly website that met their business goals. Through detailed discussions, I identified key areas for improvement, including site functionality, user experience, and search engine visibility. After implementing SEO best practices, the website achieved a first-place ranking in local search results, significantly increasing traffic and engagement. ',
+		stack: ['WordPress', 'Elementor', 'SEO Optimisation'],
+		livePreview: 'https://lunalovepilates.com/',
 	},
 	{
 		name: 'Welcome Wellness',
